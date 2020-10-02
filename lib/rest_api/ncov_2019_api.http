@@ -3,6 +3,10 @@ POST {{baseUrl}}/token
 Authorization: Basic {{authorizition}}
 
 ###
+GET {{baseUrl}}/cases
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+###
 GET {{baseUrl}}/casesSuspected
 Accept: application/json
 Authorization: Bearer {{accessToken}}
